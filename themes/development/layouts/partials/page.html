@@ -2,7 +2,7 @@
 {{ partial "header.html" }}
 
 nav
-<p>{{ $.Site.Params.description }}</p>
+<p>{{ .Site.GetPage "page" "index.md" }}</p>
  
 
 	<h1>My First Heading</h1>
